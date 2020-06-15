@@ -1,0 +1,22 @@
+# Default ignored files
+/workspace.xml
+*.class
+classes/
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+**/target/**
+/target
