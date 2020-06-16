@@ -13,7 +13,7 @@ public interface PersonMapper {
     PersonMapper INSTANCE = Mappers.getMapper( PersonMapper.class);
 
 
-    @Mapping(source = "firstName", target = "firstName")
+    @Mapping(source = "current", target = "current")
     PersonDao personToPersonDTO(Person person);
 
     AddressDao addressToAddressDTO(Address address);

@@ -16,7 +16,7 @@ public class Person {
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate deathDate=null;
 
-    private Address curent;
+    private Address current;
     private Address origin;
 
     private Person father;
@@ -40,12 +40,28 @@ public class Person {
         this.gender = gender;
     }
 
-    public Address getCurent() {
-        return curent;
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 
-    public void setCurent(Address curent) {
-        this.curent = curent;
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public LocalDate getDeathDate() {
+        return deathDate;
+    }
+
+    public void setDeathDate(LocalDate deathDate) {
+        this.deathDate = deathDate;
+    }
+
+    public Address getCurrent() {
+        return current;
+    }
+
+    public void setCurrent(Address current) {
+        this.current = current;
     }
 
     public Address getOrigin() {
