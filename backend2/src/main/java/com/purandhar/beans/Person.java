@@ -1,4 +1,4 @@
-package com.nashirabad.chaudhary.beans;
+package com.purandhar.beans;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;

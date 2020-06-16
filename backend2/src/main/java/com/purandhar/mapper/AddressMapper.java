@@ -1,7 +1,7 @@
-package com.nashirabad.chaudhary.mapper;
+package com.purandhar.mapper;
 
-import com.nashirabad.chaudhary.beans.Address;
-import com.nashirabad.chaudhary.db.dao.AddressDao;
+import com.purandhar.beans.Address;
+import com.purandhar.db.dao.AddressDao;
 import org.mapstruct.factory.Mappers;
 
 public interface AddressMapper {

@@ -1,10 +1,8 @@
-package com.nashirabad.chaudhary.mapper;
+package com.purandhar.mapper;
 
-import com.nashirabad.chaudhary.beans.Person;
-import com.nashirabad.chaudhary.db.dao.PersonDao;
+import com.purandhar.beans.Person;
+import com.purandhar.db.dao.PersonDao;
 import org.junit.Assert;
-
-import static org.junit.Assert.*;
 
 public class PersonMapperTest {
 
@@ -14,7 +12,7 @@ public class PersonMapperTest {
         Person person = new Person();
         person.setFirstName("pradeep");
 
-        PersonDao  personDao = PersonMapper.INSTANCE.personToPersonDTO(person);
+        PersonDao personDao = PersonMapper.INSTANCE.personToPersonDTO(person);
 
         Assert.assertEquals("pradeep",personDao.getFirstName());
     }

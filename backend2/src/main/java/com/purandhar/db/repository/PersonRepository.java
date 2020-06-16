@@ -1,6 +1,6 @@
-package com.nashirabad.chaudhary.db.repository;
+package com.purandhar.db.repository;
 
-import com.nashirabad.chaudhary.db.dao.PersonDao;
+import com.purandhar.db.dao.PersonDao;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -1,9 +1,9 @@
-package com.nashirabad.chaudhary.service;
+package com.purandhar.service;
 
-import com.nashirabad.chaudhary.beans.Person;
-import com.nashirabad.chaudhary.db.dao.PersonDao;
-import com.nashirabad.chaudhary.db.repository.PersonRepository;
-import com.nashirabad.chaudhary.mapper.PersonMapper;
+import com.purandhar.beans.Person;
+import com.purandhar.db.dao.PersonDao;
+import com.purandhar.db.repository.PersonRepository;
+import com.purandhar.mapper.PersonMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

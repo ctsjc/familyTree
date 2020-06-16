@@ -1,4 +1,4 @@
-package com.nashirabad.chaudhary.db.dao;
+package com.purandhar.db.dao;
 
 import lombok.Data;
 import lombok.ToString;

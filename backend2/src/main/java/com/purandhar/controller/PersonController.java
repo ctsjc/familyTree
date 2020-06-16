@@ -1,13 +1,10 @@
-package com.nashirabad.chaudhary.controller;
+package com.purandhar.controller;
 
-import com.nashirabad.chaudhary.beans.Person;
-import com.nashirabad.chaudhary.service.PersonCRUDService;
+import com.purandhar.beans.Person;
+import com.purandhar.service.PersonCRUDService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.jdbc.DataSourceBuilder;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.*;
 
-import javax.sql.DataSource;
 import java.util.List;
 
 @RestController

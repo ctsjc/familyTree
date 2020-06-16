@@ -1,15 +1,12 @@
-package com.nashirabad.chaudhary.mapper;
+package com.purandhar.mapper;
 
-import com.nashirabad.chaudhary.beans.Address;
-import com.nashirabad.chaudhary.beans.Person;
-import com.nashirabad.chaudhary.db.dao.AddressDao;
-import com.nashirabad.chaudhary.db.dao.PersonDao;
+import com.purandhar.beans.Address;
+import com.purandhar.beans.Person;
+import com.purandhar.db.dao.AddressDao;
+import com.purandhar.db.dao.PersonDao;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
-
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Target;
 
 @Mapper
 public interface PersonMapper {
