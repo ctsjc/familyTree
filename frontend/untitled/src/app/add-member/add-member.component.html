@@ -1,0 +1,90 @@
+<p>add-member works!</p>
+<div>
+  <table>
+    <tr>
+      <td>Father</td>
+      <td><input type="text" [(ngModel)]="father"></td>
+    </tr>
+
+
+    <tr>
+      <td>Mother</td>
+      <td><input type="text" [(ngModel)]="mother"></td>
+    </tr>
+
+
+    <tr>
+      <td>Gender</td>
+      <td><input type="text" [(ngModel)]="gender"></td>
+    </tr>
+
+    <tr>
+      <td>Name</td>
+      <td><input type="text" [(ngModel)]="firstName"></td>
+    </tr>
+
+    <tr>
+      <td>Spouse</td>
+      <td><input type="text" [(ngModel)]="spouse"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="Reset" (click)="reset()"></td>
+      <td><input type="button" value="Save" (click)="save()"></td>
+      <td><input type="button" value="Get" (click)="getAll()"></td>
+    </tr>
+  </table>
+</div>
+<p> Auto Suggest </p>
+<section class="filter-wrapper">
+  <div class="keyword-wrapper">
+    <input type="text" id="keyword" placeholder="Search for artists..." [(ngModel)]="someValue" (ngModelChange)="changeFunction()" autofocus/>
+  </div>
+  <ul class="filter-select">
+    <li class="filter-select-list"><img src="" alt="" width="50" height="50"><p class="artist-name"></p>
+      <span class="tags"></span>
+  </ul>
+</section>
+
+
+<div>
+  <table>
+
+    <tr>
+      <td>Father</td>
+
+      <td>{{father}}</td>
+    </tr>
+
+
+    <tr>
+      <td>Mother</td>
+      <td>{{mother}}</td>
+    </tr>
+
+
+    <tr>
+      <td>Gender</td>
+      <td>{{gender}}</td>
+    </tr>
+
+    <tr>
+      <td>Name</td>
+      <td>{{firstName}}</td>
+    </tr>
+
+    <tr>
+      <td>Spouse</td>
+      <td>{{spouse}}</td>
+    </tr>
+  </table>
+</div>
+
+<div>
+  <p>List of all chuadharies</p>
+  <ul>
+  <li *ngFor="let person of persons">
+    <span class="badge">{{person.firstName}}</span> {{person.father}}
+  </li>
+  </ul>
+</div>
